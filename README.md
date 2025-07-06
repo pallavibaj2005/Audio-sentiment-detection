@@ -13,7 +13,7 @@ Emotional tone depends on how pitch, energy, and rhythm evolve.
 
 So we need a model that remembers past information — not just see a snapshot.
 
-3. LSTM = Memory-Powered Neural Network
+2. LSTM = Memory-Powered Neural Network
 
 LSTM stands for Long Short-Term Memory, a special type of RNN.
 
@@ -97,13 +97,19 @@ fearful : 0.9000
 
 
 # Output Files
-File	Description
+
 X_datanew.json	MFCC features for training set
+
 Y_datanew.json	Emotion labels for training set
+
 x_test_data.json	MFCC features for test set
+
 y_test_data.json	Emotion labels for test set
+
 best_weights.keras	Best model weights (from training)
+
 confusion_matrix.png	Confusion matrix image
+
 loss_accuracy_plot.png	Training vs validation curves
 
 
